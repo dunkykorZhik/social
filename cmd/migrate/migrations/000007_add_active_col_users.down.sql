@@ -1,0 +1,6 @@
+ALTER TABLE
+  IF EXISTS users DROP COLUMN is_active;
+
+ALTER TABLE
+  IF EXISTS users DROP COLUMN IF EXISTS role_id;
+
